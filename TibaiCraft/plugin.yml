@@ -1,0 +1,12 @@
+main: tibaicraft.TibaiCraft.main
+name: tibaicraft.TibaiCraft
+version: 1.0
+author: its me
+api-version: 1.16
+commands:
+  lighting_pulse:
+     description: lighting_pulse
+     usage: /<command>
+
+
+
