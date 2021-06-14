@@ -19,7 +19,8 @@ public class SummonItemCommand implements CommandExecutor {
 			{
 				Player player = (Player) sender;
 				player.getInventory().addItem(plugin.lighting_pulse);
-				player.sendMessage("boi");
+				player.getInventory().addItem(plugin.tempest_blessing);
+				player.getInventory().addItem(plugin.endless_wrath);
 				return true;
 			}
 		}
